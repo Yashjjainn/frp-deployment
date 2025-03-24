@@ -92,4 +92,6 @@
 ### To access you client from any machine  ping x.x.x.x:8080
 
 - where x.x.x.x is the public ip of your proxy server. here we pinged 13.60.238..64:8080 and got output
+  ![WhatsApp Image 2025-03-24 at 08 10 51](https://github.com/user-attachments/assets/4a44eeef-56e7-4a71-81f8-a53d2ad7c701)
+
   
