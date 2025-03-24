@@ -80,14 +80,16 @@
     remotePort = 8080
     ```
    - replace serverAddr with your AWS EC2 instance's public ip.
+     ![Screenshot from 2025-03-17 10-05-40](https://github.com/user-attachments/assets/37f1617f-82b5-4f90-81eb-328539eba5d3)
+
 - run frpc
   - ```
     ./frpc -c ./frpc.toml
     ```
+    ![Screenshot from 2025-03-17 10-07-15](https://github.com/user-attachments/assets/369e4eb6-130b-421d-9b62-81325390e3e8)
 
 
-### To access you client from any machine 
-```
-x.x.x.x:8080
-```
-- where x.x.x.x is the public ip of your proxy server.
+### To access you client from any machine  ping x.x.x.x:8080
+
+- where x.x.x.x is the public ip of your proxy server. here we pinged 13.60.238..64:8080 and got output
+  
